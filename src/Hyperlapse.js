@@ -726,6 +726,7 @@ var Hyperlapse = function(container, params) {
 	 */
 	this.load = function() {
 		_point_index = 0;
+		console.log(_h_points);
 		_loader.composePanorama(_h_points[_point_index].pano_id);
 	};
 
